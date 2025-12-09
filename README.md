@@ -54,6 +54,8 @@ Offline mode :
   ```
 - Opened http://localhost:8000
 
+The models results can be download in : https://drive.google.com/drive/folders/1LoBMdpaH8AoIUlJ-gnw8KFp8N_sCvl3M?usp=sharing 
+
 Technology Used
 - Computer Vision: YOLOv11, RT-DETR, FCOS
 - Server Deployment: AWS EC2 + FastAPI
