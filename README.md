@@ -1,15 +1,30 @@
 # Smart Traffic Light Optimization System (YOLO + Fuzzy Logic + IoT)
 This project is a traffic light optimization system based on vehicle detection, PCU calculation, and automatic signal duration adjustment using Fuzzy Logic. This system combines a computer vision model, cloud server, and IoT microcontroller to produce adaptive and real-time traffic light settings.
 
-The project can run in two modes:
-- Online Mode (AWS EC2)
-- Offline Mode (Local Host / PC)
-
 Project Objectives : 
 - Create an artificial intelligence-based adaptive traffic light system simulation
 - Reduce traffic congestion using PCU calculations and fuzzy logic
 - Integrate AI, cloud computing, and IoT models into one complete system
 - Compare the performance of various detection models (YOLO vs RT-DETR vs FCOS)
+
+Folder Structure: 
+root/
+│ server.py
+│ requirements.txt
+│ README.md
+│
+├── static/
+│   └── output/               
+├── templates/
+│   └── index.html            
+├── models/
+│   ├── yolov11n_visdrone_5cls_bikemoto_ft.pt
+│   ├── fcos.pth
+│   └── rtdetr_visdrone_5cls.pt
+
+The project can run in two modes:
+- Online Mode (AWS EC2)
+- Offline Mode (Local Host / PC)
 
 System Integration Flow 
 
