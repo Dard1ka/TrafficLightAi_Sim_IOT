@@ -12,6 +12,7 @@ Project Objectives :
 - Compare the performance of various detection models (YOLO vs RT-DETR vs FCOS)
 
 System Integration Flow 
+
 Online Mode : 
 - The system starts by opening an AWS EC2 server (Ubuntu Linux) as the model deployment location. This server handles image analysis using a hosted vehicle detection model
 - User are asked to enter traffic condition images and select a detection model (YOLOv11, RT-DETR, FCOS, etc.), after which the images will be processed and detection results will be generated
