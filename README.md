@@ -9,17 +9,29 @@ Project Objectives :
 
 Folder Structure: 
 root/
+
 │ server.py
+
 │ requirements.txt
+
 │ README.md
+
 │
+
 ├── static/
-│   └── output/               
+
+│   └── output/         
+
 ├── templates/
-│   └── index.html            
+
+│   └── index.html         
+
 ├── models/
+
 │   ├── yolov11n_visdrone_5cls_bikemoto_ft.pt
+
 │   ├── fcos.pth
+
 │   └── rtdetr_visdrone_5cls.pt
 
 The project can run in two modes:
